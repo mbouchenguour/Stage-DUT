@@ -1,0 +1,17 @@
+#camembert{
+    float: left;
+    height: 400px;
+    width: 400px;
+}
+
+#bar{
+    float: right;
+    height: 400px;
+    width: 400px;
+    bottom: 0;
+}
+
+#bar2{
+    height: 400px;
+    width: 1000px;
+}

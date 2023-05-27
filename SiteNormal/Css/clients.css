@@ -1,0 +1,52 @@
+/*table*/
+table {
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 2%;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+table thead tr {
+    background: transparent;
+    border-radius: 1em;
+    color: #FCE501;
+    font-family: 'Droid Sans';
+    font-weight: normal;
+    text-align: center;
+}
+
+table th, table td {
+    padding: 12px 15px;
+}
+
+table th{
+    background-color: #0189ba;
+}
+
+table tr {
+    border-bottom: 2px solid #dddddd;
+}
+
+table tr:last-of-type {
+    border-bottom: 2px solid #0189ba;
+}
+
+
+/*button*/
+ol{
+    list-style-type: none;
+}
+
+.button {
+    width: 160px;
+    margin-left: 120px;
+}
+
+input[type=checkbox] {
+    transform: scale(1.2);
+}
+
+.editButton{
+    cursor: pointer;
+}
