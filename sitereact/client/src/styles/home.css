@@ -1,0 +1,8 @@
+#btn-historique {
+  position: absolute;
+  right: 0;
+}
+
+#btn-historique:hover{
+    cursor: pointer;
+}

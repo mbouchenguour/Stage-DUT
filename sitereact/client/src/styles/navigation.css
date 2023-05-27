@@ -1,0 +1,51 @@
+nav {
+  background: #0b4b64;
+  text-align: center;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  height: 85px;
+  justify-content: space-around;
+}
+
+ul {
+  list-style: none;
+}
+
+.icone {
+  display: block;
+}
+
+span {
+  display: block;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-sous-deroulant {
+  display: none;
+  position: absolute;
+  background-color: #0b4b64;
+  z-index: 2;
+}
+
+.nav-sous-deroulant li {
+  margin: 10px;
+}
+
+.nav-links .navbar-ajoutClient:hover .nav-sous-deroulant {
+  display: block;
+}
+
+.logo {
+  margin: 0 auto;
+}
+
+img {
+  height: 50px;
+}

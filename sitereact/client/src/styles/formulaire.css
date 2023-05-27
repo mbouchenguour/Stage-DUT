@@ -1,0 +1,78 @@
+body {
+  text-align: center;
+}
+
+.form-add,
+.form-edit {
+  display: inline-block;
+  margin: 30px;
+  margin-bottom: 0px;
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 10px;
+}
+
+.form-add label {
+  display: block;
+}
+.select-id {
+  width: 100%;
+}
+
+.select-date {
+  width: 100%;
+}
+
+.input-info {
+  width: 100%;
+}
+
+#button-validate {
+  border-radius: 10px;
+  margin-top: 10px;
+  border-color: #000000;
+  background: #fff;
+  width: 50%;
+  height: 30px;
+}
+
+#button-validate:hover {
+  cursor: pointer;
+  background: #aef3ff;
+  transition: 0.3s;
+}
+
+.saisie {
+  margin: 10px auto;
+}
+
+.colonne1 {
+  float: left;
+  margin-right: 40px;
+}
+.colonne2 {
+  float: right;
+  margin-left: 40px;
+}
+
+.btn-addClient {
+  margin: 20px auto;
+}
+
+.erreurs {
+  color: red;
+}
+
+.valide {
+  color: green;
+}
+
+input {
+  height: 20px;
+}
+
+select {
+  height: 20px;
+}
+
+

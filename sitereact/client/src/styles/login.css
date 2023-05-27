@@ -1,0 +1,53 @@
+.login-page {
+  background: #0b4b64;
+  width: 25%;
+  height: 300px;
+  margin: 100px auto;
+  border-radius: 10px;
+}
+
+.logoAH {
+  padding-top: 30px;
+}
+
+#login,
+#password {
+  border-radius: 5px;
+  width: 75%;
+  height: 20px;
+  margin: 5px auto;
+  border-color: #000000;
+}
+
+textarea:focus,
+input:focus,
+button:focus {
+  outline: none;
+}
+
+#text-login {
+  color: white;
+}
+
+.btn-confirmation {
+  border-radius: 10px;
+  margin: 10px auto;
+  border-color: #000000;
+  background: #fff;
+  width: 50%;
+  height: 30px;
+}
+
+.btn-confirmation:hover {
+  cursor: pointer;
+  background: #aef3ff;
+  transition: 0.3s;
+}
+
+input[type="text"] {
+  text-align: center;
+}
+
+input[type="password"] {
+  text-align: center;
+}

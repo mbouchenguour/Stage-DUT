@@ -1,0 +1,176 @@
+.identifiant {
+  width: 5px;
+}
+
+.tableau,
+.tableau-edit {
+  border-collapse: collapse;
+  border-radius: 10px;
+  margin: 20px auto;
+  width: 95%;
+  margin-bottom: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  font-size: 0.8rem;
+}
+
+.tableau-client th,
+.tableau-formule th,
+.tableau-edit th,
+.tableau th,
+.tableau-ancienneFormule th,
+.tableau-nouvelleFormule th {
+  background-color: #0b4b64;
+  color: #ffffff;
+  text-align: center;
+}
+
+.tableau th,
+.tableau td,
+.tableau-edit td,
+.tableau-edit th,
+.tableau-ancienneFormule th,
+.tableau-ancienneFormule td,
+.tableau-nouvelleFormule td,
+.tableau-nouvelleFormule th {
+  height: 50px;
+}
+
+tr:hover {
+  background-color: #e6e6ff;
+}
+
+.tableau-edit tbody tr:hover {
+  cursor: pointer;
+}
+
+.colonne-logo {
+  width: 3%;
+}
+
+.colonne-prix {
+  width: 5%;
+}
+
+.colonne-id {
+  width: 4%;
+}
+
+.colonne-date {
+  width: 11%;
+}
+
+.colonne-codePostale {
+  width: 4%;
+}
+
+.colonne-idClient {
+  width: 5%;
+}
+.colonne-dateClient {
+  width: 7%;
+}
+.colonne-facturation {
+  width: 10%;
+}
+
+.tableau-client,
+.tableau-formule,
+.tableau-ancienneFormule,
+.tableau-nouvelleFormule {
+  border-collapse: collapse;
+  border-radius: 10px;
+  margin-top: 30px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  font-size: 0.8rem;
+}
+
+.tableau-ancienneFormule {
+  width: 30%;
+  float: left;
+  margin-left: 50px;
+}
+
+.tableau-nouvelleFormule {
+  width: 30%;
+  float: right;
+  margin-right: 50px;
+}
+
+.tableau-client {
+  width: 25%;
+  position: fixed;
+  float: left;
+  margin-left: 10px;
+}
+
+.tableau-formule {
+  width: 72%;
+  float: right;
+  margin-right: 10px;
+}
+
+.tableau-client th {
+  width: 50%;
+}
+
+.tableau-client td {
+  height: 25px;
+}
+
+.tableau-formule th {
+  height: 35px;
+}
+
+.iconeMail {
+  cursor: pointer;
+}
+
+.btn-accept,
+.btn-refuser {
+  position: absolute;
+  bottom: 40px;
+  height: 30px;
+  width: 70px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn-accept {
+  left: 43%;
+  background-color: #0be61e;
+}
+
+.btn-refuser {
+  right: 43%;
+  background-color: rgb(255, 0, 0);
+}
+
+.btn-acceptInfoClient,
+.btn-annulerInfoClient {
+  position: fixed;
+  bottom: 10px;
+  height: 30px;
+  width: 70px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn-acceptInfoClient {
+  left: 5%;
+  background-color: #0be61e;
+}
+
+.btn-annulerInfoClient {
+  left: 15%;
+  background-color: rgb(255, 0, 0);
+}
+
+.btn-annulerInfoClient:disabled,
+.btn-acceptInfoClient:disabled {
+  cursor: not-allowed;
+}
+
+#fleche {
+  height: 150px;
+  margin-top: 100px;
+}

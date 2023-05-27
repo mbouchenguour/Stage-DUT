@@ -1,0 +1,21 @@
+.form-modif {
+  display: inline-block;
+  margin: 50px;
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 10px;
+}
+
+.form-modif label {
+  display: block;
+}
+
+.modif-client {
+  float: left;
+  margin-left: 20%;
+}
+
+.modif-login {
+  float: right;
+  margin-right: 20%;
+}
